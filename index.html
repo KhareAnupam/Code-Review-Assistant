@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Code Review Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <h1>AI Code Review Assistant</h1>
+        <p>Upload a code file to get an expert review on readability, modularity, and potential bugs.</p>
+
+        <input type="file" id="fileInput">
+        <button type="button" id="submitButton">Review My Code</button>
+
+        <div id="loader" class="hidden">
+            <p>Analyzing your code... </p>
+        </div>
+
+        <div id="reviewResult">
+            </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
